@@ -1,5 +1,6 @@
-#E-ticaret Web Sitesi Örneği
-Bu projede frontend ve backend kısmı birlikte ele alınarak bir web sitesi örneği oluşturduk. Oluşturduğumuz web sitesinin dinamik ve veritabanıyla birlikte çalışmasına önem gösterdik.
+# E-ticaret Web Sitesi Örneği
+Bu projede frontend ve backend kısmı birlikte ele alınarak bir web sitesi örneği oluşturduk. Oluşturduğumuz web sitesinin dinamik ve veritabanıyla birlikte çalışmasına önem gösterdik. Veritabanı ve çeşitli kişiselleştirmelerden dolayı direkt indirip kurulması sorun çıkarabilmektedir bu nedenle ekran görüntülerinin incelenmesi tavsiye edilir.
+
 ## 🔍 Sistem Özellikleri
 
 ### 🔐 Kullanıcı Yönetimi
