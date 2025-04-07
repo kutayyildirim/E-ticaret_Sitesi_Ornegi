@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitapistan Giriş Sayfası</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="center">
+    <img src="loginresim.png" alt="" style="transform: translate(36%, 0%);">
+    <h1>Giriş Yap</h1>
+    <form id="loginForm" method="post" action="login.php">
+      <div class="txt_field">
+        <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adınız" required>
+        <span></span>
+      </div>
+      <div class="txt_field">
+        <input type="password" name="sifre" placeholder="Şifre" required>
+        <span></span>
+      </div>
+      <div class="pass">Şifreni mi Unuttun?</div>
+      <input type="submit" value="Giriş Yap">
+      <div class="signup-link">
+        Üye Değilmisiniz? <a href="uyeol.html">Üye Ol</a>
+      </div>
+      <div class="signup-link">
+        Yönetici Girişi için <a href="admingiris.html">Yönetici Girişi</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+/* !header kısmı cssi */
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ a{
+  text-decoration: none;
+  list-style-type: none;
+ }
+ a:hover {
+  color: aqua;
+ }
+ 
+ nav ul{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+  }
+ 
+ header p{
+    display: inline-block;
+    padding-left: 10px;
+    color: red ;
+    font-size: 25px;
+  }
+  
+ nav ul li{
+     display: inline-block;
+     
+ }
+ nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+ }
+nav ul li a:hover{
+  color: aqua;
+  list-style-type: none;
+  padding-top: 10px;
+ }
+  .sepet li a:hover{
+  color: aqua;
+  background-color:orange;
+ }
+ img{
+  border-radius: 10px;
+  padding-left: 5px;
+  position: relative;
+  bottom: -20px;
+ }
+ .img-1{
+  width: 75px;
+  height: 75px;
+  position: relative;
+  bottom: -20px;
+ }
+ .img-2{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  bottom: -17px;
+ }
+ form.search {
+      display: flex;
+      position: relative;
+      bottom: 10px;
+  }
+  form.search input {
+      width: 500px;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      box-sizing: border-box;
+      padding: 0 15px;
+      flex: 1;
+      outline: 0;
+      margin-left: 27px;
+  }
+  form.search input:hover{
+    height: 45px;
+  } 
+  form.search button {
+      height: 40px;
+      padding: 0 30px;
+      background: #393a3b;
+      color: #fff;
+      border-radius: 4px ;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+  }
+  form.search button:hover {
+    height: 45px;
+    background-color: beige;
+    color: #333;
+}
+
+  .container {
+     width: auto;
+     height: auto;
+     background-color:orange;
+  }
+  .nav-container {
+     margin-top: -15px;
+  }
+  .giris-uye {
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 150px;
+      margin-right:50px;
+      font-size: 22px;
+      font-weight: 300;
+  }
+  .sepet {
+      list-style-type: none;
+      display: inline-block;
+      margin-right:20px;
+      font-size: 22px;
+      font-weight: 300;
+      position: relative;
+      
+  }
+
+  .sepet-resmi {
+      border-radius: 12px;
+  }
+  .sepet-ekle-button{
+     margin-left: 90px;
+     text-align: center;
+
+
+  }
+  .navbar-menu ul li:last-child {
+      margin-left: 800px;
+  }
+
+
+/* !header cssi */
+
+
+
+
+
+
+body {
+    background-color: #2691d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.baslik {
+    width: 1000px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    text-align: center;
+    padding-top: -1px;
+}
+.kayit-ol{
+    width: 552px;
+    height: 690px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+form{
+    width: 450px;
+    margin-left: 20px;
+}
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+input[type="button"]{
+    width: 500px;
+    height: 35px;
+    margin-right: 20px;
+    border: none;
+    margin-top: 25px;
+    background-color: #2691d9;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+
+
+/* !footer cssi */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: both;
+    position: relative;
+    bottom: -30px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.social-icons img {
+    width: 20px;
+    margin: 0 5px;
+}
+/* !footer cssi */
