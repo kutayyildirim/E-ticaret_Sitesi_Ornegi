@@ -1,3 +1,28 @@
+#E-ticaret Web Sitesi Örneği
+Bu projede frontend ve backend kısmı birlikte ele alınarak bir web sitesi örneği oluşturduk. Oluşturduğumuz web sitesinin dinamik ve veritabanıyla birlikte çalışmasına önem gösterdik.
+## 🔍 Sistem Özellikleri
+
+### 🔐 Kullanıcı Yönetimi
+- Kullanıcılar kayıt olur, giriş yapar.
+- Şifreler güvenli şekilde saklanır.
+- Kişisel bilgiler kullanıcı profilinde yer alır.
+
+### 📖 Ürün Listeleme & Detay Sayfası
+- Kitaplar kategoriye, yazara ve fiyata göre filtrelenebilir.
+- Ürün detay sayfasında açıklama, stok bilgisi ve kullanıcı değerlendirmeleri görüntülenir.
+
+### 🛒 Sepet & Sipariş Yönetimi
+- Kullanıcılar ürünleri sepete ekleyebilir.
+- Sipariş verildiğinde sistem `siparisler` ve `siparisdetaylari` tablosuna kayıt yapar.
+
+### 💳 Ödeme Sistemi
+- Kullanıcılar sipariş sonunda ödeme yapar.
+- Ödeme detayları `odemeler` tablosunda kayıt altına alınır.
+
+### 🌟 Değerlendirme Sistemi
+- Kullanıcılar kitaplara puan verip yorum yapabilir.
+- Ortalama puanlar hesaplanarak kitap sayfalarında gösterilebilir.
+
 # 📚Veritabanı Yapısı
 
 Kitapİstan, çevrim içi kitap satışı yapılabilen bir e-ticaret platformudur. Bu belgede projenin **veritabanı yapısı**, **tabloların açıklamaları** ve sistemin **nasıl çalıştığına dair detaylar** yer almaktadır.
@@ -111,28 +136,3 @@ Her siparişteki ürünlerin detaylarını içerir.
 | odemeTarihi   | Ödeme tarihi                      |
 | odemeYontemi  | Kredi kartı, banka kartı vb.      |
 | kartBilgileri | Maskelenmiş kart bilgisi          |
-
----
-
-## 🔍 Sistem Özellikleri
-
-### 🔐 Kullanıcı Yönetimi
-- Kullanıcılar kayıt olur, giriş yapar.
-- Şifreler güvenli şekilde saklanır.
-- Kişisel bilgiler kullanıcı profilinde yer alır.
-
-### 📖 Ürün Listeleme & Detay Sayfası
-- Kitaplar kategoriye, yazara ve fiyata göre filtrelenebilir.
-- Ürün detay sayfasında açıklama, stok bilgisi ve kullanıcı değerlendirmeleri görüntülenir.
-
-### 🛒 Sepet & Sipariş Yönetimi
-- Kullanıcılar ürünleri sepete ekleyebilir.
-- Sipariş verildiğinde sistem `siparisler` ve `siparisdetaylari` tablosuna kayıt yapar.
-
-### 💳 Ödeme Sistemi
-- Kullanıcılar sipariş sonunda ödeme yapar.
-- Ödeme detayları `odemeler` tablosunda kayıt altına alınır.
-
-### 🌟 Değerlendirme Sistemi
-- Kullanıcılar kitaplara puan verip yorum yapabilir.
-- Ortalama puanlar hesaplanarak kitap sayfalarında gösterilebilir.
